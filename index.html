@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title> SpaceX </title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+		<link rel="stylesheet" href="dist/css/main.css">
+
+	</head>
+	<body>
+		
+		<div class="content" data-show="home">
+
+			<!-- <nav>
+				<button data-goto="home">Home</button>
+				<button data-goto="page2">Page 2</button>
+				<button data-goto="page3">Page 3</button>
+			</nav> -->
+
+			<nav class="side-nav">
+				<button data-goto="page6"></button>
+				<button data-goto="page5"></button>
+				<button data-goto="page4"></button>
+				<button data-goto="page3"></button>
+			</nav>
+
+			<nav class="bottom-nav">
+				<button data-goto="page7">Mars Mission</button>
+				<button data-goto="page8">Rockets & Spacecrafts</button>
+				<button data-goto="page9">Launches</button>
+			</nav>
+
+			<div class="home-logo"><img src="dist/img/logo.png" alt="SpaceX Logo"></div>
+			<h2 class="planet1" data-goto="page3">Mars</h2>
+			<div data-goto="page3" class="home-mars-img"><img src="dist/img/planet1.png" alt="Mars"></div>
+			<h2 class="planet2">Earth</h2>
+			<div class="home-earth-img"><img src="dist/img/planet2.png" alt="earth"></div>
+			<h1 class="home-heading">Choose your Horizon</h1>
+			<p class="home-paragraph">
+				Pick a planet and select an area of the globe to the right to choose your sky. 
+			</p>
+			<button class="home-skip" data-goto="page3">Skip</button>
+			<div class="home-globe"></div>
+			<div class="home-background"></div>
+
+			<h1 class="page2-heading">Pick a Spot on the Right</h1>
+			<div class="page3-missions">
+				<h2 class="page3-news">News</h2>
+				<div class="the-missions">
+					<img src="dist/img/page3arrow.png" alt="">
+					<div class="left-mission">
+						<p>OCT 30, 2017</p>
+						<p>KOREASAT-5A MISSION </p>
+					</div>
+					<div class="middle-mission">
+						<p>OCT 11, 2017</p>
+						<p>ECHOSTAR 105/SES-11</p>
+					</div>
+					<div class="right-mission">
+						<p>OCT 30, 2017</p>
+						<p>KOREASAT-5A MISSION </p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="page3-heading">		
+				<h1 class="page3-heading-one">Zuma</h1>
+				<h1 class="page3-heading-two">Mission</h1>
+			</div>
+			<button class="page3-replay" data-goto="page3">Replay</button>
+			<span class="page3-circle-earth"></span>	
+			<h4 class="page3planet-earth">Earth</h4>
+			<p id="page4-hidden-paragraphs" class="page4-p1">Earth can be seen as a bright evening star.</p>
+			<span class="page3-circle-jupiter"></span>
+			<h4 class="page3planet-jupiter">Jupiter</h4>
+			<p id="page4-hidden-paragraphs" class="page4-p2">Boys go to Jupiter to get more stupider.</p>
+			<h4 class="page3planet-a">Aldebaran</h4>
+			<span class="page3-circle-Aldebaran"></span>
+			<!-- <p id="page4-hidden-paragraphs" class="page4-p3">Similar to Earth, one can see the star Aldebaran approximatel 65 light years away.</p>             -->
+			<p class="page4-description">Depending on where you are, the night sky is a bit different. Explore by hovering over points of interests.</p>
+			<div id="page3andpage4-background"></div>
+
+
+			<div class="page5-heading">		
+				<h1 class="page5-heading-one">We're Going</h1>
+				<h1 class="page5-heading-two">to Mars</h1>
+			</div>
+			<button class="page5-learn" data-goto="page5">Learn More</button>
+			<span class="page5-circle page5-circle-one"></span>	
+			
+			<p id="page5-hidden-paragraphs" class="page5-p1">Our aspirational goal is to send our first cargo mission to Mars in 2022.</p>
+			<span class="page5-circle page5-circle-two"></span>
+			
+			<p id="page5-hidden-paragraphs" class="page5-p2">The objectives for the first mission will be to confirm water resources and identify hazards along with putting in place initial power, mining, and life support infrastructure. </p>
+		
+			<span class="page5-circle page5-circle-three"></span>
+			<p id="page5-hidden-paragraphs" class="page4-p3">A second mission, with both cargo and crew, is targeted for 2024, with primary objectives of building a propellant depot and preparing for future crew flights.</p>            
+			
+			<div class="page5-moon"></div>
+			<div class="page5-grid"></div>
+			<div id="page5-background"></div>
+
+			
+			<div class="page6-heading">		
+				<h1 class="page6-heading-one">Reusable</h1>
+				<h1 class="page6-heading-two">Rockets</h1>
+			</div>
+			<div class="page6-info">
+				<p class="page6-paragraph">SpaceX believes a fully and rapidly reusable rocket is the pivotal breakthrough needed to substantially reduce the cost of space access.   While most rockets are designed to burn up on reentry, SpaceX rockets can not only withstand reentry, but can also successfuly land back on Earth and refly again. </p>
+				<button class="page6-learn" data-goto="page6">Learn More</button>
+			</div>
+			
+			<div class="page6-rocket"></div>
+			<div id="page6-background"></div>
+		</div>
+
+		<script src="dist/js/main.js"></script>
+
+	</body>
+</html>
